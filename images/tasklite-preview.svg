@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="Inter, 'Segoe UI', Tahoma, sans-serif">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b8cff"/>
+      <stop offset="1" stop-color="#9a5bff"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#131f3d"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#24304d" opacity="0.45"/>
+    </pattern>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0 L0 0 0 28" fill="none" stroke="#24304d" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <rect width="800" height="520" fill="url(#dots)"/>
+  <circle cx="700" cy="70" r="150" fill="#5b8cff" opacity="0.06"/>
+  <circle cx="95" cy="445" r="130" fill="#9a5bff" opacity="0.08"/>
+
+  <rect x="40" y="150" width="176" height="38" rx="19" fill="#16223c" stroke="#24304d"/>
+  <circle cx="62" cy="169" r="11" fill="#5b8cff" opacity="0.25"/>
+  <path d="M56 169 l4 4 l8 -8" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="82" y="174" font-size="11.5" fill="#e8edf7">Location check</text>
+  <line x1="216" y1="169" x2="248" y2="169" stroke="#24304d" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <rect x="40" y="208" width="176" height="38" rx="19" fill="#16223c" stroke="#24304d"/>
+  <circle cx="62" cy="227" r="11" fill="#9a5bff" opacity="0.25"/>
+  <circle cx="62" cy="227" r="3.5" fill="#ffffff"/>
+  <text x="82" y="232" font-size="11.5" fill="#e8edf7">Background tracking</text>
+  <line x1="216" y1="227" x2="248" y2="227" stroke="#24304d" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <rect x="40" y="266" width="176" height="38" rx="19" fill="#16223c" stroke="#24304d"/>
+  <circle cx="62" cy="285" r="11" fill="#28c840" opacity="0.25"/>
+  <circle cx="62" cy="285" r="4.5" stroke="#ffffff" stroke-width="1.7" fill="none"/>
+  <text x="82" y="290" font-size="11.5" fill="#e8edf7">Arabic &amp; English</text>
+  <line x1="216" y1="285" x2="248" y2="285" stroke="#24304d" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <rect x="560" y="150" width="196" height="38" rx="19" fill="#16223c" stroke="#24304d"/>
+  <circle cx="582" cy="169" r="11" fill="#5b8cff" opacity="0.25"/>
+  <text x="582" y="174" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">F</text>
+  <text x="604" y="174" font-size="11.5" fill="#e8edf7">Flutter + Firebase</text>
+  <line x1="550" y1="169" x2="560" y2="169" stroke="#24304d" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <rect x="560" y="208" width="196" height="38" rx="19" fill="#16223c" stroke="#24304d"/>
+  <circle cx="582" cy="227" r="11" fill="#9a5bff" opacity="0.25"/>
+  <rect x="578" y="227" width="2.5" height="6" rx="1" fill="#ffffff"/>
+  <rect x="582" y="225" width="2.5" height="8" rx="1" fill="#ffffff"/>
+  <rect x="586" y="229" width="2.5" height="4" rx="1" fill="#ffffff"/>
+  <text x="604" y="232" font-size="11.5" fill="#e8edf7">Full reports</text>
+  <line x1="550" y1="227" x2="560" y2="227" stroke="#24304d" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <rect x="560" y="266" width="196" height="38" rx="19" fill="#16223c" stroke="#24304d"/>
+  <circle cx="582" cy="285" r="11" fill="#28c840" opacity="0.25"/>
+  <circle cx="582" cy="285" r="4.5" stroke="#ffffff" stroke-width="1.7" fill="none"/>
+  <line x1="582" y1="282" x2="582" y2="285" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="582" y1="285" x2="585" y2="287.5" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="604" y="290" font-size="11.5" fill="#e8edf7">Live sync</text>
+  <line x1="550" y1="285" x2="560" y2="285" stroke="#24304d" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <ellipse cx="400" cy="522" rx="165" ry="8" fill="#000000" opacity="0.3"/>
+
+  <rect x="250" y="24" width="300" height="488" rx="40" fill="#101a30" stroke="#24304d" stroke-width="2"/>
+  <rect x="352" y="36" width="96" height="16" rx="8" fill="#0b1120"/>
+
+  <text x="276" y="54" font-size="11" fill="#e8edf7">09:41</text>
+  <rect x="470" y="44" width="3" height="4" rx="1" fill="#9aa8c4"/>
+  <rect x="476" y="42" width="3" height="6" rx="1" fill="#9aa8c4"/>
+  <rect x="482" y="40" width="3" height="8" rx="1" fill="#9aa8c4"/>
+  <rect x="498" y="42" width="20" height="10" rx="3" stroke="#9aa8c4" stroke-width="1.5" fill="none"/>
+  <rect x="500" y="44" width="12" height="6" rx="1.5" fill="#28c840"/>
+
+  <text x="282" y="88" font-size="18" font-weight="800" fill="url(#brand)">Dawami</text>
+  <text x="282" y="102" font-size="9.5" fill="#9aa8c4">Attendance at hand</text>
+  <circle cx="524" cy="80" r="14" fill="url(#brand)" stroke="#101a30" stroke-width="2.5"/>
+  <text x="524" y="85" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">A</text>
+
+  <rect x="262" y="108" width="276" height="196" rx="14" fill="#0f1a33" stroke="#24304d"/>
+  <rect x="262" y="108" width="276" height="196" rx="14" fill="url(#grid)"/>
+  <path d="M262 246 Q330 236 400 256 T538 246" stroke="#24304d" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M262 176 Q340 186 400 168 T538 178" stroke="#24304d" stroke-width="2" fill="none" opacity="0.8"/>
+  <rect x="288" y="146" width="44" height="26" rx="5" fill="#16223c" stroke="#24304d"/>
+  <rect x="448" y="196" width="40" height="24" rx="5" fill="#16223c" stroke="#24304d"/>
+  <rect x="300" y="238" width="46" height="28" rx="5" fill="#16223c" stroke="#24304d"/>
+  <rect x="468" y="126" width="34" height="22" rx="5" fill="#16223c" stroke="#24304d"/>
+
+  <circle cx="400" cy="206" r="92" stroke="#5b8cff" opacity="0.28" stroke-width="1.5" stroke-dasharray="3 7" fill="none"/>
+  <circle cx="400" cy="206" r="70" fill="#5b8cff" opacity="0.07" stroke="url(#brand)" stroke-width="2.5"/>
+  <circle cx="400" cy="206" r="9" fill="#9a5bff"/>
+  <circle cx="400" cy="206" r="3.5" fill="#ffffff"/>
+  <text x="400" y="236" text-anchor="middle" font-size="10" fill="#e8edf7">Work Gate</text>
+  <circle cx="350" cy="170" r="6.5" fill="#5b8cff" stroke="#0f1a33" stroke-width="2.5"/>
+
+  <rect x="276" y="120" width="110" height="26" rx="13" fill="#0f1a33" stroke="#28c840" opacity="0.9"/>
+  <circle cx="289" cy="133" r="3.5" fill="#28c840"/>
+  <text x="338" y="138" text-anchor="middle" font-size="10.5" fill="#28c840">Inside Zone</text>
+
+  <rect x="262" y="318" width="276" height="92" rx="14" fill="#16223c" stroke="#24304d"/>
+  <line x1="400" y1="332" x2="400" y2="396" stroke="#24304d"/>
+  <text x="284" y="344" font-size="11" fill="#9aa8c4">Present since</text>
+  <text x="284" y="370" font-size="16" font-weight="700" fill="#e8edf7">09:00</text>
+  <text x="418" y="344" font-size="11" fill="#9aa8c4">Today total</text>
+  <text x="418" y="370" font-size="16" font-weight="700" fill="#e8edf7">6:45</text>
+
+  <rect x="262" y="424" width="276" height="46" rx="13" fill="url(#brand)"/>
+  <text x="400" y="453" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Check Out</text>
+
+  <circle cx="295" cy="486" r="9" fill="url(#brand)"/>
+  <circle cx="365" cy="486" r="9" stroke="#9aa8c4" stroke-width="1.7" fill="none"/>
+  <circle cx="435" cy="486" r="9" stroke="#9aa8c4" stroke-width="1.7" fill="none"/>
+  <circle cx="505" cy="486" r="9" stroke="#9aa8c4" stroke-width="1.7" fill="none"/>
+  <text x="295" y="508" text-anchor="middle" font-size="9.5" fill="#5b8cff">Home</text>
+  <text x="365" y="508" text-anchor="middle" font-size="9.5" fill="#9aa8c4">Reports</text>
+  <text x="435" y="508" text-anchor="middle" font-size="9.5" fill="#9aa8c4">Team</text>
+  <text x="505" y="508" text-anchor="middle" font-size="9.5" fill="#9aa8c4">Profile</text>
+</svg>

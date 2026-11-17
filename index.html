@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-ar="عبدالعزيز القلال | مبرمج" data-en="Abdulazez Algallal | Programmer">Abdulazez Algallal | Programmer</title>
+  <meta name="description" data-ar="موقع شخصي يعرض نبذة عني وعن أعمالي كمبرمج ومعلومات التواصل." data-en="Personal website showcasing my background, programming projects, and contact information.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" data-ar="عبدالعزيز القلال" data-en="Abdulazez Algallal">Abdulazez Algallal</a>
+      <nav class="main-nav" id="main-nav">
+        <a href="#about" data-ar="نبذة عني" data-en="About">About</a>
+        <a href="#skills" data-ar="المهارات" data-en="Skills">Skills</a>
+        <a href="#projects" data-ar="أعمالي" data-en="Projects">Projects</a>
+        <a href="#contact" data-ar="تواصل معي" data-en="Contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button id="lang-toggle" class="icon-btn" type="button" aria-label="Switch language">ع</button>
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle theme">
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button id="menu-toggle" class="icon-btn menu-btn" type="button" aria-label="Open menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-greeting" data-ar="مرحباً، أنا" data-en="Hello, I'm">Hello, I'm</p>
+          <h1 class="hero-name gradient-text" data-ar="عبدالعزيز القلال" data-en="Abdulazez Algallal">Abdulazez Algallal</h1>
+          <h2 class="hero-role" data-ar="مبرمج ومطور برمجيات" data-en="Programmer &amp; Software Developer">Programmer &amp; Software Developer</h2>
+          <p class="hero-bio" data-ar="أهلاً بك في موقعي الشخصي. أعمل على تطوير أنظمة وحلول برمجية متكاملة، ومن أبرزها نظام التفتيش والمطابقة ونظام الدوام. تصفح أعمالي ولا تتردد في التواصل معي."
+             data-en="Welcome to my personal website. I build complete software solutions, including an Inspection &amp; Matching System and an Attendance System. Browse my work and feel free to get in touch.">
+            Welcome to my personal website. I build complete software solutions, including an Inspection &amp; Matching System and an Attendance System. Browse my work and feel free to get in touch.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" data-ar="شاهد أعمالي" data-en="View My Work">View My Work</a>
+            <a href="#contact" class="btn btn-outline" data-ar="تواصل معي" data-en="Contact Me">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="code-card">
+            <div class="code-card-head">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-file">developer.js</span>
+            </div>
+            <pre class="code-card-body"><code><span class="c-key">const</span> developer = {
+  name: <span class="c-str">"Abdulazez Algallal"</span>,
+  role: <span class="c-str">"Programmer"</span>,
+  stack: [<span class="c-str">"Web"</span>, <span class="c-str">"Desktop"</span>, <span class="c-str">"API"</span>],
+  systems: [<span class="c-str">"Inspection &amp; Matching"</span>, <span class="c-str">"Attendance"</span>],
+  <span class="c-fn">hire</span>: <span class="c-key">true</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title" data-ar="نبذة عني" data-en="About Me">About Me</h2>
+        <p class="section-sub" data-ar="من أنا وماذا أفعل" data-en="Who I am and what I do">Who I am and what I do</p>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">💻</div>
+            <h3 data-ar="الخبرة" data-en="Experience">Experience</h3>
+            <p data-ar="خبرة عملية في تطوير الأنظمة والبرمجيات، وتحليل المتطلبات، وبناء حلول تخدم العمليات اليومية مثل التفتيش والمطابقة وإدارة الدوام."
+               data-en="Hands-on experience in software development, requirements analysis, and building solutions that support daily operations such as inspection &amp; matching and attendance management.">
+              Hands-on experience in software development, requirements analysis, and building solutions that support daily operations such as inspection &amp; matching and attendance management.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🎯</div>
+            <h3 data-ar="رؤيتي" data-en="My Vision">My Vision</h3>
+            <p data-ar="أطمح إلى بناء أنظمة برمجية سهلة الاستخدام وفعالة توفّر الوقت والجهد وتزيد الإنتاجية في بيئة العمل."
+               data-en="I aim to build user-friendly, efficient software systems that save time and effort and boost workplace productivity.">
+              I aim to build user-friendly, efficient software systems that save time and effort and boost workplace productivity.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🚀</div>
+            <h3 data-ar="شغفي" data-en="My Passion">My Passion</h3>
+            <p data-ar="أستمتع بتعلّم التقنيات الحديثة وتطبيقها في مشاريع حقيقية، وتحويل الأفكار إلى منتجات برمجية ملموسة."
+               data-en="I enjoy learning modern technologies, applying them to real projects, and turning ideas into tangible software products.">
+              I enjoy learning modern technologies, applying them to real projects, and turning ideas into tangible software products.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-ar="المهارات" data-en="Skills">Skills</h2>
+        <p class="section-sub" data-ar="التقنيات التي أعمل بها" data-en="Technologies I work with">Technologies I work with</p>
+        <div class="skills-grid">
+          <div class="skill-chip">TypeScript</div>
+          <div class="skill-chip">Next.js</div>
+          <div class="skill-chip">NestJS</div>
+          <div class="skill-chip">Prisma</div>
+          <div class="skill-chip">PostgreSQL</div>
+          <div class="skill-chip">Flutter</div>
+          <div class="skill-chip">Firebase</div>
+          <div class="skill-chip">Docker</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title" data-ar="أعمالي" data-en="My Projects">My Projects</h2>
+        <p class="section-sub" data-ar="أنظمة ومشاريع قمت بتطويرها" data-en="Systems and projects I have built">Systems and projects I have built</p>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="images/inspection-preview.svg" alt="Inspection Compliance System" loading="lazy">
+              <span class="project-badge" data-ar="نظام ويب" data-en="Web System">Web System</span>
+            </div>
+            <div class="project-body">
+              <h3 data-ar="منظومة التفتيش والمطابقة" data-en="Inspection Compliance System">Inspection Compliance System</h3>
+              <p data-ar="منظومة متكاملة لإدارة عمليات التفتيش ومطابقة الشهادات مع المعايير، مبنية بمعمارية Monorepo. تشمل دورة حياة الشهادات، مصفوفة صلاحيات (مدير/مفتش)، إنشاء تقارير PDF وتدقيقاً أمنياً كاملاً."
+                 data-en="A complete inspection compliance system built as a monorepo. Features certificate lifecycle state machine, role-based permissions (admin/inspector), PDF report generation, and full security auditing.">
+                A complete inspection compliance system built as a monorepo. Features certificate lifecycle state machine, role-based permissions (admin/inspector), PDF report generation, and full security auditing.
+              </p>
+              <div class="project-tags">
+                <span>Next.js</span><span>NestJS</span><span>PostgreSQL</span><span>Prisma</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="images/tasklite-preview.svg" alt="Dawami Attendance App" loading="lazy">
+              <span class="project-badge" data-ar="تطبيق جوال" data-en="Mobile App">Mobile App</span>
+            </div>
+            <div class="project-body">
+              <h3 data-ar="تطبيق دوامي" data-en="Attendance App (TaskLite)">Attendance App (TaskLite)</h3>
+              <p data-ar="تطبيق جوال لإدارة الدوام يتحقق من التواجد الفعلي للموظف عند بوابة العمل عبر النطاق الجغرافي (Geofence) مع تتبع في الخلفية، وتقارير يومية/أسبوعية/شهرية، ودعم كامل للعربية والإنجليزية."
+                 data-en="A mobile attendance app that verifies real employee presence at the workplace gate via geofence with background tracking, daily/weekly/monthly reports, and full Arabic/English support.">
+                A mobile attendance app that verifies real employee presence at the workplace gate via geofence with background tracking, daily/weekly/monthly reports, and full Arabic/English support.
+              </p>
+              <div class="project-tags">
+                <span>Flutter</span><span>Firebase</span><span>Geofence</span><span>Reports</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-ar="تواصل معي" data-en="Contact Me">Contact Me</h2>
+        <p class="section-sub" data-ar="يسعدني تواصلك معي" data-en="I'd love to hear from you">I'd love to hear from you</p>
+        <div class="contact-grid">
+          <a href="tel:05XXXXXXXX" class="contact-card">
+            <div class="contact-icon">📞</div>
+            <h3 data-ar="الهاتف" data-en="Phone">Phone</h3>
+            <p dir="ltr">05X XXX XXXX</p>
+          </a>
+          <a href="#" class="contact-card" target="_blank" rel="noopener">
+            <div class="contact-icon">💼</div>
+            <h3>LinkedIn</h3>
+            <p data-ar="حسابي على LinkedIn" data-en="My LinkedIn profile">My LinkedIn profile</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-ar="© 2026 جميع الحقوق محفوظة" data-en="© 2026 All rights reserved">© 2026 All rights reserved</p>
+      <p data-ar="صُنع بـ ♥" data-en="Made with ♥">Made with ♥</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
