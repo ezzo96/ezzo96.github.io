@@ -455,14 +455,16 @@ html[data-theme="light"] .c-fn { color: #1d4ed8; }
 /* Contact */
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 22px;
-  max-width: 720px;
+  max-width: 960px;
   margin-inline: auto;
 }
 
 .contact-card {
   display: block;
+  min-width: 0;
+  overflow-wrap: anywhere;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -506,6 +508,24 @@ html[data-theme="light"] .c-fn { color: #1d4ed8; }
 }
 
 /* ===== Responsive ===== */
+@media (max-width: 540px) {
+  .contact-grid {
+    gap: 8px;
+  }
+
+  .contact-card {
+    padding: 20px 6px;
+  }
+
+  .contact-card h3 {
+    font-size: 0.8rem;
+  }
+
+  .contact-card p {
+    font-size: 0.75rem;
+  }
+}
+
 @media (max-width: 860px) {
   .hero-inner {
     grid-template-columns: 1fr;
